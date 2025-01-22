@@ -54,7 +54,7 @@ esAdmin(){
 
   redireccionar(){
     if(this.esAdmin()){
-      this._router.navigate(['DashBoard']);
+      this._router.navigate(['/DashBoard']);
     }else{
       this._router.navigate(['/']);
     }

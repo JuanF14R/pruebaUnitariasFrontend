@@ -197,18 +197,18 @@ describe('Prueba LoginService', () => {
 
     it('Deberia redireccionar si es Admin a Dashboard', () => {
 
-      
-      const isAdmin = true;
 
-      service.redireccionar.esAdmin()
-      expect(_mockRouter.navigate).toHaveBeenCalledWith(['/Dashboard']);
+      spyOn(service, 'esAdmin').and.returnValue(true);
+
+      
+      // const isAdmin = true;
+
+      service.redireccionar();
+      expect(_mockRouter.navigate).toHaveBeenCalledWith(['/DashBoard']);
 
 
     });
     
-    
-
-
 
  
 });
