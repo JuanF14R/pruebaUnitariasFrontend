@@ -13,6 +13,10 @@ Desde un sencillo proceso de registro hasta un catálogo extenso y fácil de nav
 
 Con este proyecto, buscamos construir una comunidad sólida que tenga de primera mano las ultimas actualizaciones respecto a la moda visitiendo ropa de calidad para cualquier ocasión. Nuestro objetivo es impulsar las ventas, y el crecimiento de nuestra comunidad como marca, generando un mercado dinámico y atractivo para todos los amantes de verse bien, no olvides que proyectar una buena imagen es la base del exito.
 
+**Para este repositorio en particular ejecutamos las pruebas unitarias al Frontend apoyados en las tecnologias de Jasmine y Karma, logrando identificar un correcto funcionamiento en el aplicativo web de cara a las intereacciones de los usuarios. Se realiza pruebas para inicio de sesión, productos y servicios. 
+
+![image](https://github.com/user-attachments/assets/8b5a8b86-2922-41ac-afa5-af29ed73223c)
+
+
 👥 Autores
-Jose Luis Mariño
 Juan Felipe Rodriguez
